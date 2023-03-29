@@ -1,0 +1,34 @@
+# Arquivos de log
+*.log
+*.log.*
+*.log_*
+
+# Arquivos temporários ou de backup
+*.bak
+*.tmp
+*.swp
+~*
+
+# Diretórios de saída do Maven
+target/
+bin/
+build/
+
+# Diretórios de dependências do Maven
+lib/
+target/dependency/
+
+# Arquivos de configuração local
+application.properties
+application.yml
+
+# Arquivos de build específicos da IDE
+.project
+.classpath
+.factorypath
+.settings/
+
+# Diretórios de arquivos gerados automaticamente
+generated/
+generated-sources/
+target/generated-sources/
